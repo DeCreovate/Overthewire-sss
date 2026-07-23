@@ -34,7 +34,7 @@ then cat the ...hiding from you file to get our flag.
 
 **bandit4:6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG**
 
-here we are looking for the only human redable file that is ASCII text
+here we are looking for the only human readable file that is ASCII text
 
 used file ./* to expose all the file types and identified my ascii text. which was my file07 then i used cat "./-file07" to open the file because it started with a - to make it look like its in the main directory.
 
@@ -48,3 +48,12 @@ file → Search for files.
 -type f → Only look for files (not directories).
 -size 1033c → Find files that are exactly 1033 bytes (c means bytes).
 ! -executable → The file is not executable, so ignore executable files.
+
+**bandit6: Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3**
+
+it was said that the password was  in a file somewhere in the sever in group bandit 6 and user bandit7 with size 33bytes
+
+so i used the command
+find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null
+added 2>/dev/null to filter noise
+c is used to represent bytes.
