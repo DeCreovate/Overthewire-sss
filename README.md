@@ -3,6 +3,7 @@ step by step guide on how to solve over the wire war games challenge
 
 **Overthewire**
 **bandit0- finish** 
+
  **bandit0 : ssh bandit0@bandit.labs.overthewire.org -p 2220**
  ls then cat the readme file
  **bandit0 flag: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR**
@@ -71,3 +72,29 @@ added 2>/dev/null to filter noise
 c is used to represent bytes.
 
 <img width="1169" height="274" alt="image" src="https://github.com/user-attachments/assets/868a1768-a7f1-48a8-ac71-c4a85ce55bbd" />
+
+**bandit7: VR1ljMayciFxbnUokuQmJFw6QC9VKtub**
+the flag was stored inside the file data.txt its beside the word millionth
+ so i used the command 
+ **cat data.txt | grep millionth**
+
+<img width="653" height="161" alt="image" src="https://github.com/user-attachments/assets/8b1b91ce-1798-4c65-987b-72c2c586a865" />
+
+
+**bandit8:EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl**
+ used sort  to align the strings and used uniq command to find the count of the strings as we are looking for the one that appeared only once.
+
+ i first used 
+ **sort data.txt** to sort it out 
+ then used **sort data.txt | uniq -c**
+
+<img width="410" height="631" alt="image" src="https://github.com/user-attachments/assets/bc7ec303-2c57-4131-b363-dc76c0641376" />
+
+**bandit9:B0s2khmbT9u0geKuOoVGW3JZKhndE3BG**
+ used strings data.txt to filter our the strings due to the over load of unreadable texts out password should be a string.
+ command used was **string data.txt**
+ function is to filter out strings from unreadable texts.
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5b8b011e-ae8e-4984-aad4-d20d0a5e58d8" />
+
+
