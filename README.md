@@ -1,4 +1,4 @@
-# Overthewire-sss
+<img width="1366" height="768" alt="Screenshot_2026-07-23_03_31_37" src="https://github.com/user-attachments/assets/08afabb2-920b-4796-8fd3-93f3c870da67" /># Overthewire-sss
 step by step guide on how to solve over the wire war games challenge
 
 **Overthewire**
@@ -6,6 +6,7 @@ step by step guide on how to solve over the wire war games challenge
  **bandit0 : ssh bandit0@bandit.labs.overthewire.org -p 2220**
  ls then cat the readme file
  **bandit0 flag: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR**
+ 
 
 **Bandit1**
 **ssh bandit1@bandit.labs.overthewire.org -p 2220**
